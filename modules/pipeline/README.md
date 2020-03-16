@@ -34,7 +34,7 @@ Functional examples are included in the
 |------|-------------|:----:|:-----:|:-----:|
 | artifact | The artifact used to create the pipeline | string | `""` | no |
 | artifact\_name | The name of the artifact. This will be the app name. | string | `""` | yes |
-| spec | The full contents of the exported pipeline JSON spec. | string | `""` | no |
+| spec | The full contents of the exported pipeline JSON spec. | string | `""` | yes |
 | name | The name of the instance. | string | `""` | no |
 | namespace | The name of the namespace to which the resource belongs. | string | `""` | yes |
 
