@@ -33,10 +33,10 @@ Functional examples are included in the
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | artifact | The artifact used to create the pipeline | string | `""` | no |
-| artifact\_name | The name of the artifact. This will be the app name. | string | `""` | no |
-| json\_config\_path | Relative path to exported pipeline (json). | string | `""` | no |
+| artifact\_name | The name of the artifact. This will be the app name. | string | `""` | yes |
+| spec | The full contents of the exported pipeline JSON spec. | string | `""` | no |
 | name | The name of the instance. | string | `""` | no |
-| namespace | The name of the namespace to which the resource belongs. | string | `""` | no |
+| namespace | The name of the namespace to which the resource belongs. | string | `""` | yes |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
